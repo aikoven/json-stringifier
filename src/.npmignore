@@ -1,0 +1,4 @@
+*.spec.ts
+*.test.ts
+__snapshots__
+__tests__

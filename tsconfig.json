@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es2015"],
+    "declaration": true,
+    "stripInternal": true,
+    "sourceMap": true,
+    "outDir": "lib",
+    "strict": true,
+    "noUnusedLocals": true
+  },
+  "files": ["src/index.ts"],
+  "include": [
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts",
+    "src/**/__tests__/**/*.ts"
+  ]
+}

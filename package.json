@@ -1,0 +1,51 @@
+{
+  "name": "json-stringifier",
+  "version": "0.1.0",
+  "description": "Alternative to JSON.stringify() that supports altering the behavior of the stringification process at string level",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "keywords": [
+    "json",
+    "stringify",
+    "stringifier",
+    "memoize",
+    "cache",
+    "custom"
+  ],
+  "author": "Daniel Lytkin <dan.lytkin@gmail.com>",
+  "license": "MIT",
+  "repository": "aikoven/json-stringifier",
+  "scripts": {
+    "clean": "rimraf lib",
+    "test": "jest",
+    "build": "tsc -P tsconfig.build.json",
+    "prepare": "npm test && npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "benchmark": "^2.1.4",
+    "jest": "^22.1.4",
+    "lodash": "^4.17.11",
+    "redux": "^4.0.1",
+    "ts-jest": "^22.0.1",
+    "typescript": "^3.1.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  }
+}
