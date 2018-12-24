@@ -21,7 +21,7 @@ these objects and the regular stringification for the rest.
 
 ## Installation
 
-    $ npm install ice-to-plain
+    $ npm install json-stringifier
 
 ## Examples
 
