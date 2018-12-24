@@ -146,7 +146,7 @@ exceptions:
 - Primitive wrapper types `Boolean`, `Number` and `String` are not supported
   (yet).
 
-[npm-image]: https://badge.fury.io/js/json-stringifier.svg [npm-url]:
-https://badge.fury.io/js/json-stringifier [travis-image]:
-https://travis-ci.org/aikoven/json-stringifier.svg?branch=master [travis-url]:
-https://travis-ci.org/aikoven/json-stringifier
+[npm-image]: https://badge.fury.io/js/json-stringifier.svg
+[npm-url]: https://badge.fury.io/js/json-stringifier
+[travis-image]: https://travis-ci.org/aikoven/json-stringifier.svg?branch=master
+[travis-url]: https://travis-ci.org/aikoven/json-stringifier
